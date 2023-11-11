@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class RenderController {
 
     @GetMapping("/render")
-    public String renderData(@RequestParam BoundingBox boundingBox, @RequestParam int width, @RequestParam int height){
+    public String renderData(){
         return "hello";
     }
 }
